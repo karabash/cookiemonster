@@ -1,0 +1,176 @@
+header {
+    background: #ffffff;
+    border-bottom: 4px solid #e81b00;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.header-text {
+    border-bottom: 1px solid #ccc;
+    float: left;
+    font-family: "AkkuratRegular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2px;
+    margin-bottom: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.header-text span {
+    background: #fff none repeat scroll 0 0;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0 20px;
+    position: relative;
+    top: 1px;
+}
+
+#logo {
+    width: 225px;
+    height: 57px;
+    margin-left: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#h1 {
+    font-size: 20px;
+}
+body {
+    width: 100%;
+    margin: -34px 0px 0px;
+}
+main {
+    height: 820px;
+    margin-top: 128px;
+    padding: 30px 20px 130px;
+
+}
+section {
+    float: inherit;
+    margin-left: 20px;
+    width: 100%;
+    position: relative;
+}
+footer {
+    background: #fdfdfd;
+    border-top: 4px solid #ddd;
+    height: 180px;
+    margin: 5px 0 0 0;
+}
+.recepi-grid.space-bottom {
+    margin-bottom: 40px;
+}
+
+.recepi-grid {
+    float: left;
+    margin: 10px -1% 0;
+    width: 104.3%;
+}
+
+.recepi-grid .recepi {
+    float: left;
+    height: 180px;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    position: relative;
+    width: 25%;
+}
+
+.recepi-grid .recepi a {
+    display: block;
+    line-height: 0.5em;
+    margin-top: -10px;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+.recepi-grid .recepi .recepi-image > img {
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin: auto;
+    max-height: 80%;
+    max-width: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.recepi-grid .recepi a:link, .recepi-grid .recepi a:visited {
+    color: #777;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.recepi-grid .recepi a:active, .recepi-grid .recepi a:hover {
+    color: #ff4a96;
+    font-size: 13px;
+    opacity: 0.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.recepi-grid .recepi .recepi-price, .recepi-grid .recepi .recepi-rating, .recepi-grid .recepi .recepi-title, .recepi-grid .recepi .recepi-description, .recepi-grid .recepi .recepi-header, .recepi-grid .recepi .pr-g-c {
+    margin-left: 10px;
+}
+
+.recepi-grid .recepi .recepi-image {
+    border: 1px solid #ddd;
+    height: 160px;
+    margin: 0 10px 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+}
+.info-box {
+    background-color: #57c7b3;
+    border-radius: 5px;
+    margin: 0 0 30px 0;
+    padding: 4px;
+}
+
+.info-box h1, h3 {
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 0 #777;
+}
+div {
+    transition:all 1s ease;
+    /* Don't forget the vendor specific pre-fixes! */
+}
+
+div:target {
+    color:darkblue;
+    font-size:20px;
+    font-weight: 400;
+    font-family: "Garamond";
+}
+strong{
+    color: blue;
+    font-weight: 700;
+}
+.recepi-image:hover{
+    transition:all 1s ease;
+}
