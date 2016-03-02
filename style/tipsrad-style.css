@@ -51,7 +51,7 @@ body {
     margin: -34px 0px 0px;
 }
 main {
-    height: 820px;
+    height: 1100px;
     margin-top: 128px;
     padding: 30px 20px 130px;
 
@@ -173,4 +173,131 @@ strong{
 }
 .recepi-image:hover{
     transition:all 1s ease;
+}
+
+#td{
+    color: blue;
+    font-family: "Vladimir Script";
+    font-weight: 600;
+    font-size: 25px;
+}
+#td1{
+    color: blue;
+    font-family: "Vladimir Script";
+    font-weight: 600;
+    font-size: 25px;
+}
+#td2{
+    color: blue;
+    font-family: "Vladimir Script";
+    font-weight: 600;
+    font-size: 25px;
+}
+#td3{
+    color: blue;
+    font-family: "Vladimir Script";
+    font-weight: 600;
+    font-size: 25px;
+}
+li{
+    color: blue;
+    font-family:"SansSerif";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#close2 {
+    float:left;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+
+#close1 {
+    float:left;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+#myDIV2 {
+    border: 1px solid black;
+    background-color: lightblue;
+    opacity: 1;
+    position: absolute;
+    left:30%;
+    width: 200%;
+    height: 650px;
+    top: 20px;
+    visibility: hidden;
+    z-index: 100;
+}
+
+#myDIV1 {
+    border: 1px solid black;
+    background-color: lightblue;
+    opacity: 1;
+    width: 200%;
+    height: 550px;
+    position:absolute;
+    top: 20px;
+    left:30%;
+    visibility: hidden;
+    z-index: 100;
+}
+#close3 {
+    float:left;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+#myDIV3 {
+    border: 1px solid black;
+    background-color: lightblue;
+    opacity: 1;
+    width: 200%;
+    height: 450px;
+    position: absolute;
+    right:30%;
+    top: 20px;
+    visibility: hidden;
+    z-index: 100;
+}
+#button1{
+    position: relative;
+    left:21%;
+    color: darkblue;
+}
+#button2{
+    position: relative;
+    left:20%;
+    color: darkblue;
+}
+#button3{
+    position: relative;
+    left:23%;
+    color: darkblue;
+}
+#button4{
+    position: absolute;
+    left:23%;
+    color: darkblue;
+}
+
+#close4 {
+    float:left;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+#myDIV4 {
+    border: 1px solid black;
+    background-color: lightblue;
+    opacity: 1;
+    position: absolute;
+    right:30%;
+    width: 200%;
+    height: 650px;
+    top: 20px;
+    visibility: hidden;
+    z-index: 100;
 }
