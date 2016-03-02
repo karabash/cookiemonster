@@ -206,3 +206,25 @@ footer {
     text-align: center;
     text-shadow: 1px 1px 0 #777;
 }
+div {
+    transition:all 1s ease;
+    /* Don't forget the vendor specific pre-fixes! */
+}
+
+div:target {
+    color:darkblue;
+    font-size:20px;
+    font-weight: 400;
+    font-family: "Garamond";
+}
+#sub {
+    transition:all 1s ease;
+    /* Don't forget the vendor specific pre-fixes! */
+}
+
+#Thank:target {
+    color:darkblue;
+    font-size:20px;
+    font-weight: 400;
+    font-family: "Garamond";
+}
