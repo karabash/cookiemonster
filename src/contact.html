@@ -25,37 +25,26 @@
     <div class="info-box">
         <h1>Kontakt</h1>
     </div>
-    <form id="contact-form" action="/" method="post">
+
+    <form class="contactForm" action="/" method="post">
 
     <label>
-        <span>Name: (required)</span>
-        <input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+        <span>Namn</span><br/>
+        <input type="text" tabindex="1" required autofocus>
     </label>
     <label>
-        <span>Email: (required)</span>
-        <input placeholder="Please enter your email address" type="email" tabindex="2" required>
-    </label>
-
-
-    <label>
-        <span>Telephone: (required)</span>
-        <input placeholder="Please enter your number" type="tel" tabindex="3" required>
+        <span>Email</span><br/>
+        <input type="email" tabindex="2" required>
     </label>
 
     <label>
-        <span>Website: (required)</span>
-        <input placeholder="Begin with http://" type="url" tabindex="4" required>
+        <span>Meddelande</span><br/>
+        <textarea tabindex="5" required></textarea>
     </label>
-
-    <label>
-        <span>Message: (required)</span>
-        <textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
-    </label>
-        <button name="submit" type="submit" id="contact-submit">Send Email</button>
+        <button name="submit" type="submit" id="contact-submit">Skicka</button>
     </form>
 
 </main>
-
 
 <footer>
     <nav>
