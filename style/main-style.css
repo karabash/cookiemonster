@@ -1,23 +1,18 @@
-a { color:#222; background-color:transparent; text-decoration:none }
-a:visited { color:#000ink; background-color:transparent; text-decoration:none }
-a:hover   { color:#777; background-color:transparent; text-decoration:none }
-a:active  { color:000; background-color:transparent; text-decoration:none }
-
 header {
-	background:#ffffff;
-	border-bottom: 4px solid #e81b00;
-	position:fixed;
-	top:0px;
-	z-index:100;
-	width:100%;
-	height:70px;
-	padding-top:20px;
+    background: #ffffff;
+    border-bottom: 4px solid #e81b00;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
 }
 
 .header-text {
     border-bottom: 1px solid #ccc;
     float: left;
-    font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
+    font-family: "AkkuratRegular", Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 2px;
@@ -26,9 +21,10 @@ header {
     text-transform: uppercase;
     width: 100%;
 }
+
 .header-text span {
     background: #fff none repeat scroll 0 0;
-    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
     padding: 0 20px;
@@ -37,26 +33,9 @@ header {
 }
 
 #logo {
-	width:225px;
-	height:57px;
-	margin-left:20px;
-}
-
-
-    .header-links {
-    font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
-    font-size: 1rem;
-    font-style: italic;
-    margin: -40px 80px 0 auto;
-    padding: 10px;
-    text-transform: uppercase;
-    width: 300px;
-}
-
-.header-links li {
-    float:right;
-    list-style:none;
-    margin-left:12px;
+    width: 225px;
+    height: 57px;
+    margin-left: 20px;
 }
 
 img {
@@ -64,14 +43,13 @@ img {
     height: auto;
 }
 
-
 #h1 {
-	font-size:20px;
+    font-size: 20px;
 }
 
 body {
-	width:100%;
-	margin:-34px 0px 0px;
+    width: 100%;
+    margin: -34px 0px 0px;
 }
 
 main {
@@ -79,84 +57,65 @@ main {
     margin-top: 128px;
     padding: 30px 20px 130px;
 
-
 }
 
 aside {
-	float-left;
-	width:13%;
-	float:left;
+    float: left;
+    width: 13%;
+    float: left;
 }
 
 .left-menu {
-	list-style: none;
-	margin-top:-20px;
+    list-style: none;
+    margin-top: -20px;
 }
 
 .left-menu-header {
-	background:#57c7b3;
-	color:#fff;
-	padding:6px;
-	height:30px;
+    background: #57c7b3;
+    color: #fff;
+    padding: 6px;
+    height: 30px;
 }
 
 .left-menu-heading {
-	color:#fff;
-	font-weight:600;
-	margin-top:-10px;
-	margin-left:3px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-left: 3px;
 }
 
 .left-menu li {
-	border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     line-height: 2.2;
     margin-left: -30px;
     width: 160px;
-    font-size:1rem;
-    font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
 }
 
 section {
-	float:left;
-	margin-left:20px;
-	width:70%;
-	position: relative;
+    float: left;
+    margin-left: 20px;
+    width: 70%;
+    position: relative;
 }
 
 .recepi-of-the-day {
-     border:1px solid #ddd;
-     padding:10px;
-     width: 100%;
-     height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    height: auto;
 }
 
 .recepi-of-the-day-img {
-	width: 100%;
+    width: 100%;
     height: auto;
 }
 
 footer {
-	background:#fdfdfd;
-	border-top:4px solid #ddd;
-	height:180px;
-	margin:5px 0 0 0;
+    background: #fdfdfd;
+    border-top: 4px solid #ddd;
+    height: 180px;
+    margin: 5px 0 0 0;
 }
-
-.footer-links {
-    margin: 70px auto 0;
-    width: 200px;
-    font-size:1rem;
-    text-transform:uppercase;
-    font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
-
-}
-
-.footer-links li {
-    float:left;
-    list-style:none;
-    margin-left:12px;
-}
-
 
 .recepi-grid.space-bottom {
     margin-bottom: 40px;
@@ -167,6 +126,7 @@ footer {
     margin: 10px -1% 0;
     width: 104.3%;
 }
+
 .recepi-grid .recepi {
     float: left;
     height: 180px;
@@ -205,6 +165,7 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .recepi-grid .recepi a:active, .recepi-grid .recepi a:hover {
     color: #ff4a96;
     font-size: 13px;
@@ -212,9 +173,11 @@ footer {
     text-align: center;
     text-transform: uppercase;
 }
+
 .recepi-grid .recepi .recepi-price, .recepi-grid .recepi .recepi-rating, .recepi-grid .recepi .recepi-title, .recepi-grid .recepi .recepi-description, .recepi-grid .recepi .recepi-header, .recepi-grid .recepi .pr-g-c {
     margin-left: 10px;
 }
+
 .recepi-grid .recepi .recepi-image {
     border: 1px solid #ddd;
     height: 160px;
@@ -232,7 +195,7 @@ footer {
     padding: 4px;
 }
 
-.info-box h1,h3 {
+.info-box h1, h3 {
     border: 2px solid #fff;
     color: #fff;
     font-size: 1.2rem;
@@ -243,45 +206,25 @@ footer {
     text-align: center;
     text-shadow: 1px 1px 0 #777;
 }
-
-.contactForm > * {
-	display: block;
-	font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
-	color: #57c7b3;
-	margin-bottom: 20px;
+div {
+    transition:all 1s ease;
+    /* Don't forget the vendor specific pre-fixes! */
 }
 
-.contactForm input, textarea {
-	border: 3px solid #57c7b3;
-    border-radius: 4px;
-    width: 100%;
+div:target {
+    color:darkblue;
+    font-size:20px;
+    font-weight: 400;
+    font-family: "Garamond";
+}
+#sub {
+    transition:all 1s ease;
+    /* Don't forget the vendor specific pre-fixes! */
 }
 
-.contactForm input {
-	height: 50px;
-}
-
-.contactForm textarea {
-	height: 150px;
-}
-
-.contactForm {
-	margin: 0 auto;
-	width: 400px;
-}
-
-.contactForm > button {
-	width:100%;
-	height:45px;
-	border-radius:3px;
-	background-color:#57c7b3;
-	color:#fff;
-	font-family:'Raleway',sans-serif;
-	font-size:18px;
-	cursor:pointer
-}
-
-.contactForm > h2 {
-	text-align: center;
-	color: #57c7b3;
+#Thank:target {
+    color:darkblue;
+    font-size:20px;
+    font-weight: 400;
+    font-family: "Garamond";
 }
