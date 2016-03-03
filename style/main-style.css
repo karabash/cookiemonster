@@ -75,11 +75,9 @@ body {
 }
 
 main {
-    height: 820px;
     margin-top: 128px;
     padding: 30px 20px 130px;
-
-
+    min-height: 1000px;
 }
 
 aside {
@@ -168,6 +166,7 @@ footer {
 	border-top:4px solid #ddd;
 	height:180px;
 	margin:5px 0 0 0;
+	clear: both;
 }
 
 .footer-links {
@@ -176,7 +175,6 @@ footer {
     font-size:1rem;
     text-transform:uppercase;
     font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
-
 }
 
 .footer-links li {
@@ -184,7 +182,6 @@ footer {
     list-style:none;
     margin-left:12px;
 }
-
 
 .recepi-grid.space-bottom {
     margin-bottom: 40px;
