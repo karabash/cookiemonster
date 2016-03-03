@@ -75,11 +75,8 @@ body {
 }
 
 main {
-    height: 820px;
     margin-top: 128px;
     padding: 30px 20px 130px;
-
-
 }
 
 aside {
@@ -284,4 +281,128 @@ footer {
 .contactForm > h2 {
 	text-align: center;
 	color: #57c7b3;
+}
+
+#recipe_above {
+	display: inline-block;
+	width: 100%;
+}
+
+.img_source {
+    font-size: 12px;
+    text-align: right;
+}
+
+.img_source a:hover {
+    color: pink;
+}
+
+.step {
+    width: 300px;
+    margin: 10px;
+}
+
+input[type=radio] + label {
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/star_grey.png) left center no-repeat;
+}
+
+.stars {
+	display: none;
+}
+
+.ratingForm {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.ratingForm img {
+	width: 30px;
+	height: 30px;
+}
+
+.ratingForm span {
+	color: pink;
+	margin-left: 10px;
+}
+
+#method { /* ol */
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    counter-reset: item;
+    list-style: none;
+}
+
+#method li {
+    flex-grow: 1;
+    flex-basis: 0;
+    list-style-position:inside;
+    margin: 20px;
+}
+
+#method li:before {
+    content: counter(item) "  ";
+    counter-increment: item;
+    color: #003300;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+#method img {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#ingredients {
+    margin: 10px;
+    line-height: 200%;
+    list-style-image: url("../img/check.png");
+}
+
+#ingredients li {
+    list-style-position: inside;
+}
+
+#select_a_portion, #selectedPortion {
+	margin: 10px;
+}
+
+#main_ol {
+	margin: 15px 0;
+	padding-left:40px;
+	line-height: 150%;
+	list-style-position: inside;
+}
+
+#main_ol li a:hover, .hover a:hover {
+    color: pink;
+}
+
+figure  {
+    border:1px solid lightgrey;
+    float: right;
+    text-align: left;
+    padding: 10px;
+	width: 40%;
+	height: 50%;
+	background-color: white;
+}
+
+.img_source {
+    font-size: 12px;
+    text-align: right;
+}
+
+.img_source a:hover {
+    color: pink;
+}
+
+.step {
+    width: 300px;
+    margin: 10px;
 }
