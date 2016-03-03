@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scones_recipe_page/scones2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scones.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creme_brulee.html" afterPath="$PROJECT_DIR$/src/creme_brulee.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script.js" afterPath="$PROJECT_DIR$/src/script.js" />
     </list>
     <ignored path="cookiemonster.iws" />
@@ -61,8 +58,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29925188">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.36756757">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -620,7 +617,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457015905780</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="scones page added">
+      <created>1457017628009</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1457017628009</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -664,7 +667,8 @@
     <MESSAGE value="creme brulee recipe page added. &#10;portions works. &#10;stars not working yet" />
     <MESSAGE value="test" />
     <MESSAGE value="header fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="header fixed" />
+    <MESSAGE value="scones page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="scones page added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -807,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29925188">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.36756757">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding />
         </state>
       </provider>
