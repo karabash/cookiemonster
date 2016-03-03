@@ -5,7 +5,7 @@ var isRated = false;
 $('#votes').text(getLocalStorage("key2"));
 $('#average').text(getLocalStorage("key3"));
 
-
+// creme brulee
 function displayPortion() {
 	portions = getLocalStorage("key1");
 	displaySlider();
