@@ -4,7 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>Receptsidan</title>
-    <link rel="stylesheet" href="style/main-style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="../style/main-style.css">
+	<link rel="stylesheet" href="../style/scones.css">
+
 </head>
 
 <body>
@@ -75,6 +79,25 @@
                     <a href="">Chokladbollar</a>
                 </div>
             </div>
+			
+		<div class='rating'>
+		<ul>
+			<li><a href='#' class='one-star'>1</a></li>
+			<li><a href='#' class='two-stars'>2</a></li>
+			<li><a href='#' class='three-stars'>3</a></li>
+			<li><a href='#' class='four-stars'>4</a></li>
+			<li><a href='#' class='five-stars'>5</a></li>
+		</ul>
+	</div>
+
+	<p>Betyget är: <strong id="rating1"> A </strong></p>
+	<p>Vote: <strong id="vote"> A </strong></p>
+	<p>Recepie: <strong id="recipe"> A </strong></p>
+
+	
+	<div id="messageDiv"></div>
+	<script src="clickF.js"></script>
+	<script src="GetRating.js"></script>
 
             <div class="recepi">
                 <a href="">
@@ -89,6 +112,7 @@
                 <div class="recepi-title">
                     <a href="">Scones</a>
                 </div>
+				
             </div>
 
             <div class="recepi">
@@ -105,7 +129,36 @@
                     <a href="">Cupcaces</a>
                 </div>
             </div>
+			
+			
+			<div class='ratingScones'>
+		<ul>
+			<li><a href='#' class='one-starS'>1</a></li>
+			<li><a href='#' class='two-starS'>2</a></li>
+			<li><a href='#' class='three-starS'>3</a></li>
+			<li><a href='#' class='four-starS'>4</a></li>
+			<li><a href='#' class='five-starS'>5</a></li>
+		</ul>
+	</div>
 
+	<p>Betyget är: <strong id="ratingS"> A </strong></p>
+	<p>Vote: <strong id="voteS"> A </strong></p>
+	<p>Recepie: <strong id="recipeS"> A </strong></p>
+
+	
+	<div id="messageDiv"></div>
+	
+	<script src="clickF2.js"></script>
+				<script src="GetRating2.js"></script>
+
+
+			
+			
+			
+			
+			
+			
+			
             <div class="recepi">
                 <a href="">
                     <p></p>
@@ -130,5 +183,6 @@
         </ul>
     </nav>
 </footer>
+	
 </body>
 </html>
