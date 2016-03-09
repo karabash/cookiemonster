@@ -32,12 +32,22 @@ function showVoteScone() {
 
 $('.ratingScones a').click(function () {
 	// Kod som körs när man klickar på knappen
+<<<<<<< HEAD
 	var num = -2;
 	var rateValueS = $(this).text();
 	var urlS = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=d7607304c8de1b93&recipe=scones";
 	url = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=d7607304c8de1b93&recipe=scones&rating=5";
 	var paramsS = "recipe=cronut&rating=" + (rateValueS -num);
 	paramsS = "";
+=======
+	var rateValueS = $(this).text();
+	var urlS = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=d7607304c8de1b93&recipe=scones";
+	url = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=d7607304c8de1b93&recipe=scones&rating=5";
+	var paramsS = "recipe=cronut&rating=" + rateValueS;
+	paramsS = "";
+		return false;
+
+>>>>>>> origin/gh-pages
 	$("#messageDivS").html("<b>Skickar din röst... Var god vänta...</b>");
 
 	$.ajax({
@@ -47,6 +57,7 @@ $('.ratingScones a').click(function () {
 		success: function (data) {
 			showVoteScone();
 			$("#messageDivS").empty();
+<<<<<<< HEAD
 		}
 	});
 
@@ -133,12 +144,17 @@ $('.Benjamin a').click(function () {
 		success: function (data) {
 			showVotesBenjamin();
 			$("#messageDivB").empty();
+=======
+				return false;
+
+>>>>>>> origin/gh-pages
 		}
 	});
 
 });
 
 $(document).ready( function(){
+<<<<<<< HEAD
 	showVotesBenjamin();
 });
 
@@ -185,3 +201,8 @@ $('.kate a').click(function () {
 $(document).ready( function(){
 	showVotesKate();
 });
+=======
+	showVoteScone();
+});
+
+>>>>>>> origin/gh-pages
